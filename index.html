@@ -244,6 +244,7 @@
               <div class="col-6">
                 <h6 style="color:#EC89CE;">신부 측 혼주</h6><br>
                 아버지&nbsp;&nbsp;<strong>문 영환</strong><br>
+                <button type="button" id="BrideTell_p"> <img src="./dist/image/flaticon-tel.svg" width="35" height="35"> </button> <button type="button" id="BrideSms_p"> <img src="./dist/image/flaticon-sms.svg" width="35" height="35"> </button><br>
                 어머니&nbsp;&nbsp;<strong>임 정미</strong><br>
               <button type="button" id="BrideTell_m"> <img src="./dist/image/flaticon-tel.svg" width="35" height="35"> </button> <button type="button" id="BrideSms_m"> <img src="./dist/image/flaticon-sms.svg" width="35" height="35"> </button><br>
               </div>
@@ -305,6 +306,9 @@
   })
   $('#BrideTell_m').on('click', function () {
     document.location.href='tel:01090396994';
+  }) 
+  $('#BrideTell_p').on('click', function () {
+    document.location.href='tel:01040621193';
   })
 
   $('#GroomSms').on('click', function () {
@@ -322,6 +326,10 @@
   $('#BrideSms_m').on('click', function () {
     document.location.href='sms:01090396994';
   })
+  $('#BrideSms_p').on('click', function () {
+    document.location.href='sms:01040621193';
+  })
+
 </script>
   </body>
 </html>
