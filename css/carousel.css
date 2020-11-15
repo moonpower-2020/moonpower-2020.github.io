@@ -7,10 +7,9 @@
 
 body {
   font-family:MaruBuriFonts,BinggraeFonts,sans-serif;
-  padding-top: 3rem;
   padding-bottom: 3rem;
   color: #696969;
-  min-width:375px;
+  min-width:373px;
 }
 
 
@@ -40,18 +39,18 @@ body {
   right: 0;
   max-width: 100%;
   height: 33rem;
-  width: 35rem;
+  width: 373px;
 
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 412px) {
     .carousel-item > img {
       position: absolute;
       top: 0;
-      left: 16rem;
+      left: 24rem;
       max-width: 100%;
       height: 33rem;
-      width: 35rem;
+      width: 373px;
     }
     .carousel-item {
       height: 32rem;
