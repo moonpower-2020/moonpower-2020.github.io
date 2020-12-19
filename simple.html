@@ -66,8 +66,8 @@
                   <h4>혼인식</h4>
                   <p></p>
                   <p><img src="./dist/image/flaticon-wedding1.svg" width="40" height="40"></p>
-                  <p><strong>2020</strong>년 <strong>12</strong>월 <strong>19</strong>일
-                      <br>제주도 </p>
+                  <p><strong>2020</strong>년 <strong>12</strong>월 <strong>19</strong>일 
+                      <br>제주도</p>
                 </div><!-- /.col-lg-4 -->
               </div>
           </div>
@@ -202,6 +202,38 @@
       </div>
     </div>
 
+    <div class="row justify-content-md-center">
+      <div class="col-sm-6">
+        <div class="card text-center p-3 mb-5 bg-white rounded">
+          <div class="card-body">
+              <p> <strong>🤵🏻&nbsp;신랑에게</strong>&nbsp;연락하기&nbsp;&nbsp;<button type="button" id="GroomTell"> <img src="./dist/image/flaticon_call.svg" width="25" height="24"> </button>&nbsp;<button type="button" id="GroomSms"> <img src="./dist/image/flaticon-sms.svg" width="25" height="25"> </button> </p>
+              <p> <strong>👰🏻&nbsp;신부에게</strong>&nbsp;연락하기&nbsp;&nbsp;<button type="button" id="BrideTell"> <img src="./dist/image/flaticon_call.svg" width="25" height="24"> </button>&nbsp;<button type="button" id="BrideSms"> <img src="./dist/image/flaticon-sms.svg" width="25" height="25"> </button> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-md-center">
+      <div class="col-sm-6">
+          <p>
+            <a class="btn btn-info btn-sm btn-block" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="true" aria-controls="multiCollapseExample1">마음을 전하실 분</a>
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse show" id="multiCollapseExample1">
+                <div class="card card-body">
+                      <small class="text-muted">신랑 측 계좌</small>
+                        <p class="text-muted">카카오뱅크 3333-06-0002036 강도훈</p>
+                        <hr>
+                      <small class="text-muted">신부 측 계좌</small>
+                        <p class="text-muted">카카오뱅크 3333-01-0676844 문시지</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+          </div>
 <br><br>
       <div class="row justify-content-center">
 
@@ -218,7 +250,6 @@
        </footer>
     </main>
 
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -228,6 +259,19 @@
     <script src="./js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="./js/holder.min.js"></script>
-
+    <script>
+  $('#GroomTell').on('click', function () {
+    document.location.href='tel:01044889318';
+  })
+  $('#BrideTell').on('click', function () {
+    document.location.href='tel:01033786994';
+  })
+  $('#GroomSms').on('click', function () {
+    document.location.href='sms:01044889318';
+  })
+  $('#BrideSms').on('click', function () {
+    document.location.href='sms:01033786994';
+  })
+</script>
   </body>
 </html>
